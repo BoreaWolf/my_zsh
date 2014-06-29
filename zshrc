@@ -107,3 +107,8 @@ function chpwd()
 # Personal aliases
 alias ll='ls -al'
 alias mount_data='sudo mount -t "ntfs" -o "uhelper=udisks2,nodev,nosuid,uid=1000,gid=100,dmask=0077,fmask=0177" "/dev/sda3" "/mnt/DATA" -r'
+
+# Personal exports
+export CC=clang
+# Export needed to make the sol project work
+export QT_STYLE_OVERRIDE=gtk2
