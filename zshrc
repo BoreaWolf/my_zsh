@@ -110,5 +110,6 @@ alias mount_data='sudo mount -t "ntfs" -o "uhelper=udisks2,nodev,nosuid,uid=1000
 
 # Personal exports
 export CC=clang
+export CXX=clang++
 # Export needed to make the sol project work
 export QT_STYLE_OVERRIDE=gtk2
